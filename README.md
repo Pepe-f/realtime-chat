@@ -26,6 +26,12 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Init database
+
+```bash
+docker run --name chat-pg-local -p 5432:5432 -e POSTGRES_PASSWORD=root -e POSTGRES_DB=realtime-chat -d postgres
+```
+
 ## Installation
 
 ```bash
